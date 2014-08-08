@@ -24,41 +24,14 @@
 <body>
 	<div class="container col-xs-12">
 		<div class="info">
-			<h1 class="lead">A beautiful modern website</h1>
-		
-			<h2>You tell us what you want, we do all the work. <br/> No contracts, no crap.</h2>
+			<h1 class="lead">We'll build a website for your local business</h1>
+			<h2>We'll keep it updated for you too and we'll throw in our tech expertise for free</h2>
 			<p>The preview is free. Questions? You can call <a href="http://linkedin.com/in/jordancrawford/">Jordan Crawford</a> now at (415) 294-1493.</p>
-			<div class="options text-center signup1">
-				<?php if(isset($_GET['signup']) && $_GET['signup'] =='ok') : ?>
-					<div class="alert alert-success"><b>Thanks!</b> We'll be in touch.</div>
-				<?php else: ?>
-					<form class="form-inline text-center" role="form" action="get-going" method="POST">
-						<!-- Set the value this to track in GA -->  
-						<input type="hidden" name="banner-id" value="l">
-        	
-						<div class="form-group formtext">
-							<label class="sr-only" for="name">name</label>
-							<input type="name" class="form-control" name="name" placeholder="Your name">
-						</div>
-						<div class="form-group formtext">
-							<label class="sr-only" for="email">email</label>
-							<input type="e-mail" class="form-control" name="email" placeholder="Email">
-						</div>
-						<div class="form-group formtext">
-							<label class="sr-only" for="text">Business name/city</label>
-							<input type="name" class="form-control" name="city" placeholder="Business name/city">
-						</div>
-						<button type="city" class="btn btn-primary">Tell us to get going</button>
-					</form>
-				<?php endif; ?>
-			</div>
 		</div>
 	</div>
 	
     
-	<h2 class="learnmore">Good looking on every device, every time</h2>
-	
-	
+	<h2 class="learnmore">Here's what a Cursive site looks like</h2>
 	
 	<div>
 		<div class="row">
@@ -69,6 +42,30 @@
 	</div>
 	
 	
+	<div class="options text-center signup1">
+		<?php if(isset($_GET['signup']) && $_GET['signup'] =='ok') : ?>
+			<div class="alert alert-success"><b>Thanks!</b> We'll be in touch.</div>
+		<?php else: ?>
+			<form class="form-inline text-center" role="form" action="get-going" method="POST">
+				<!-- Set the value this to track in GA -->  
+				<input type="hidden" name="banner-id" value="l">
+	
+				<div class="form-group formtext">
+					<label class="sr-only" for="name">name</label>
+					<input type="name" class="form-control" name="name" placeholder="Your name">
+				</div>
+				<div class="form-group formtext">
+					<label class="sr-only" for="email">email</label>
+					<input type="e-mail" class="form-control" name="email" placeholder="Email">
+				</div>
+				<div class="form-group formtext">
+					<label class="sr-only" for="text">Business name/city</label>
+					<input type="name" class="form-control" name="city" placeholder="Business name/city">
+				</div>
+				<button type="city" class="btn btn-primary">Start the conversation</button>
+			</form>
+		<?php endif; ?>
+	</div>
 	
 
 	<div class="quote col-xs-12">
@@ -84,22 +81,22 @@
 
 	<div class="col-xs-12 highlight1 purple">
 			<div class="col-sm-12">
-			<h2 class="learnmore">Learn more about Cursive</h2>
+			<h2 class="learnmore">Here are some of our key features</h2>
 			</div>
 			<div class="col-sm-4">
 				<div class="image"><img alt="" class="icons" src="img/computer-white.svg"/></div>
 				<h3>No tech skills needed</h3>
-				<p>We help you create content and set up the site. We do the updates and maintenance. What do you do? You 					focus on your business. To date, 43,800 people have visited Cursive sites.</p>
+				<p>We help you create content and set up the site. We do the updates and maintenance. What do you do? You 					focus on your business.</p>
 			</div>
 			<div class="col-sm-4">
 				<div class="image"><img class="icons" src="img/devices-white.svg" alt="" /></div>
 				<h3>A modern site</h3>
-				<p>Cursive sites all share the same design DNA, developed by a former Apple designer/engineer. We even 						customize the content to your needs. To date, Cursive sites have viewed seen in 59 different countries.</p>
+				<p>Cursive sites all share the same design DNA, beautifully customized to your needs. To date, Cursive sites have been viewed by more than 50,000 people in 59 different countries.</p>
 			</div>
 			<div class="col-sm-4">
 				<div class="image"><img class="icons" src="img/stopwatch-white.svg" alt=""/></div>
 				<h3>Simplicity sells</h3>
-				<p>Studies show you have 10 seconds to impress a customer on your site<sup><A href="http://www.nngroup.com/articles/how-long-do-users-stay-on-web-pages/">1</a></sup>. Thanks for staying here for longer than 10 seconds ;). Cursive sites are simple one-page websites. The average user spends 1:19 on a Cursive site, longer than most sites.</p>
+				<p>Studies show you have 10 seconds to impress a customer on the web<sup><A href="http://www.nngroup.com/articles/how-long-do-users-stay-on-web-pages/">1</a></sup>. Thanks for staying here for longer than 10 seconds ;). Cursive sites are simple one-page websites. The average user spends 1:19 on a Cursive site.</p>
 			</div>
 	</div>
 	
@@ -119,7 +116,7 @@
 <div class="container col-xs-12" id="plans">
 	<hr>
 	<div class="row">
-		<h2 class="headers">Support is in our DNA</h2>
+		<h2 class="headers">Here are the people you'll work with &#9786;</h2>
 	</div>
 </div>
 
@@ -140,7 +137,7 @@
 		</div>
 		<div class="col-sm-6">
 			<h3>Full service at self-serve price</h3>
-			<p>For $40/month with no other setup fees. Cursive succeeds only if we're helping you succeed. We’ll help you setup email and register a domain. You’ll pay another company for these services, but we’ll take care of all the setup work inclusive of your monthly subscription fee.</p>
+			<p>Zach's worked as a designer and Engineer for Apple and <a href="http://inkling.com">Inkling</a>. For $40/month, with no other setup fees, we'll help you setup your email and register a domain. You’ll pay another company for these services, but the setup is included with your monthly subscription fee. We succeed only if we're helping you succeed.</p>
 		</div>
 	</div>
 
@@ -159,12 +156,12 @@
 	<div class="col-xs-12 highlight1 purple">
 			<div class="col-sm-12">
 			<h2 class="learnmore">Our Favorite Competitors</h2>
-			<p>Cursive isn't for everyone. We're not a large company, but we're reliable. We're perfect if you want to work with a highly skilled team to build your website, not a computer or overseas support. We can talk online strategy, social media, or answer technical questions about anything. We want to build partnerships with businesses and relationships with people. If this doesn't sound right, try these companies, where you can build the site yourself and save some money.</p>
+			<p>Cursive is perfect if you want to work with a small, highly skilled team to build your website, not a computer or overseas support. We can talk online strategy, social media, and answer your technical questions. We want to build partnerships with businesses and relationships with people. If this doesn't sound right for you, try these companies, where you can build the site yourself and save some money.</p>
 			</div>
 			<div class="col-sm-4">
 				<div class="image"><img alt="" class="icons" src="img/ss.png"/></div>
 				<h3>SquareSpace<br/>$20/month</h3>
-				<p>Great design for users! SquareSpace is our favorite competitor. <strong>The Goods</strong>: Lots of template options, modern, e-commerce <strong>The Bads</strong>: A bit hard to use if you're making a site, can be confusing to use.</p>
+				<p>Great design for users! SquareSpace is our favorite competitor. <strong>The Goods</strong>: Lots of template options, modern, e-commerce. <strong>The Bads</strong>: A bit hard to use if you're making a site.</p>
 			</div>
 			<div class="col-sm-4">
 				<div class="image"><img class="icons" src="img/w.png" alt="" /></div>
@@ -174,16 +171,14 @@
 			<div class="col-sm-4">
 				<div class="image"><img class="icons" src="img/sad.svg" alt=""/></div>
 				<h3>Everyone else<br/>$/month varies</h3>
-				<p>There are a lot of other options, but we don't recommend them. For example, Wix and GoDaddy are very inexpensive, but often don't work on mobile and look awful. Both are very large companies that are more profit focused than customer focused.</p>
+				<p>There are a lot of other options, but we don't recommend them. For example, Wix and GoDaddy are very inexpensive, but often don't work on mobile and look awful. Both are  large companies that are more focused on their profits than their customers.</p>
 			</div>
 	</div>
-
-
 	
 	<div class="container col-xs-12">
 		<div class="info">
-			<h2>No Contracts, No Commitments, No Crap.</h2>
-			<p>The preview is free. We'll contact you to talk more about your needs to determine if Cursive is right for you. It may not be, but if it's not, we'll suggest one of our competitors. We want you to be happy, subscription or not.</p>
+			<h2>No Contracts, No Commitments, No Crap</h2>
+			<p>The preview is free. We'll contact you to discuss your needs and find out if Cursive is right for you. If not, we'll suggest a competitor.</p>
 			<div class="options text-center signup1">
 				<?php if(isset($_GET['signup']) && $_GET['signup'] =='ok') : ?>
 					<div class="alert alert-success"><b>Thanks!</b> We'll be in touch.</div>
@@ -204,7 +199,7 @@
 							<label class="sr-only" for="text">Business name/city</label>
 							<input type="name" class="form-control" name="city" placeholder="Business name/city">
 						</div>
-						<button type="city" class="btn btn-primary">Tell us to get going</button>
+						<button type="city" class="btn btn-primary">Start the conversation</button>
 					</form>
 				<?php endif; ?>
 			</div>
@@ -219,7 +214,18 @@
 		</div>
 		<div class="col-xs-9 col-sm-10">
 			<h3>We've known Alexander Alioto for 3 years and love working with him.</h3>
-			<p>"I just opened <a href="http://plinsf.com">Plin</a> and I'm not a computer guy. Jordan's been working with me for over three years, so I signed up for a Cursive site and even hired him as a contractor to build plinsf.com, my menus, my logo, and my social media presence. I trust him to manage my brand online." <br/>&#8212;Alexander Alioto of <a href="http://alexanderalioto.com/">alexanderalioto.com/</a></p>
+			<p>"I just opened <a href="http://plinsf.com">Plin</a> and I'm not a computer guy. Jordan's been working with me for over three years, so I signed up for a Cursive site and even hired him as a contractor to build plinsf.com, my menus, my logo, and my social media presence. I trust him to manage my brand online." <br/>&#8212;Alexander Alioto of <a href="http://alexanderalioto.com">alexanderalioto.com</a></p>
+		</div>
+	</div>
+	
+	<div class="quote col-xs-12">
+	<hr>
+		<div class="col-xs-3 col-sm-2">
+			<div class="image"><img class="icons" src="img/dad.png" alt="" /><p>James</p></div>
+		</div>
+		<div class="col-xs-9 col-sm-10">
+			<h3>Ok, so this is my dad and I'm a bit embarrassed I charge him each month.</h3>
+			<p>"I was joking with a client that my son charges me $40/month, she said that makes him a good businessman. Of course it's been worth it for me, he has setup my website, setup email, fixes my iPad, and makes the hour long drive to San Jose to help me with any computer issues I have at work whenever I have them. I'm very proud of him."<br/>&#8212;James Crawford of <a href="http://jbcarchitect.com">jbcarachitect.com</a></p>
 		</div>
 	</div>
 	
