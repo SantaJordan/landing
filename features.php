@@ -1,0 +1,249 @@
+
+<!DOCTYPE html>
+<!-- [if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif] -->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<meta name="description" content="The best way to get your site up and running, fast. 15-day free trial. Cancel any time, no contracts, no commitments.">
+	<meta name="google-site-verification" content="BwEcAAJt67Q31QOjbMq5JB8uERXYHwEgRCnwxpq54Iw" />
+	<title>We build you a beautiful modern website.</title>
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/template.css">
+
+	<!-- Google Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+	<div class="section">
+		<div class="fence align--center">
+			<h1>A beautiful modern website, by Cursive</h1>
+			<h2>We'll build it, keep it updated for you, and we'll throw in our tech expertise for free.</h2>
+			<p class="gamma muted"></p>
+
+			<div class="beta muted">Good looking, everywhere</div>
+		</div>
+	</div>
+
+	<div class="section section--medium soft-none">
+		<img class="width-1" alt="" src="img/hero.jpg">
+	</div>
+
+
+	<div class="section">
+		<p class="gamma muted align--center">Like what you see? Let us build you a preview  Cursive site for free.</p>
+		<?php if(isset($_GET['signup']) && $_GET['signup'] =='ok') : ?>
+			<div class="alert alert-success"><b>Thanks!</b> We'll be in touch.</div>
+		<?php else: ?>
+			<form class="form-inline align--center signup" role="form" action="get-going" method="POST">
+				<!-- Set the value this to track in GA -->  
+				<input type="hidden" name="banner-id" value="l">
+	
+				<div class="form-group formtext">
+					<label class="sr-only" for="name">name</label>
+					<input type="name" class="form-control" name="name" placeholder="Your name">
+				</div>
+				<div class="form-group formtext">
+					<label class="sr-only" for="email">email</label>
+					<input type="e-mail" class="form-control" name="email" placeholder="Email">
+				</div>
+				<div class="form-group formtext">
+					<label class="sr-only" for="text">Business name/city</label>
+					<input type="name" class="form-control" name="city" placeholder="Business name/city">
+				</div>
+				<button type="city" class="btn btn-primary">Start the conversation</button>
+			</form>
+		<?php endif; ?>
+	</div>
+
+	<div class="section">
+		<div class="fence">
+
+			<div class="media">
+				<img alt="" src="img/arthur.png" width="80" class="media__img">
+				<div class="media__body">
+					<h3>Arthur was our first customer, thanks Arthur!</h3>
+					<p>"I had a domain registered for many years, but I wasn't doing anything with it. Jordan built my site for me in two days, updated all of the content to my specifications, and has been very responsive when I contact him. I'm so happy with Cursive." <br>—Arthur Manzi of <a href="http://resonantwords.com">resonantwords.com</a></p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	
+	
+	
+
+	<div class="section section--dark align--center">
+
+		<h2>More than just good looks</h2>
+
+		<div class="grid">
+			<div class="grid__item width-1-3">
+				<img alt="" class="icons" src="img/computer-white.svg"/>
+				<h3>No tech skills needed</h3>
+				
+				<p>We help you create content and set up the site. We do the updates and maintenance. What do you do? You 					focus on your business.</p>
+			</div>
+			<div class="grid__item width-1-3">
+				<img alt="" class="icons" src="img/devices-white.svg"/>
+				<h3>A modern site</h3>
+				<p>Cursive sites all share the same design DNA, beautifully customized to your needs. To date, Cursive sites have been viewed by more than 50,000 people in 59 different countries.</p>	
+			</div>
+			<div class="grid__item width-1-3">
+				<img alt="" class="icons" src="img/stopwatch-white.svg"/>
+				<h3>Simplicity sells</h3>
+				<p>Studies show you have 10 seconds to impress a customer on the web<sup><A href="http://www.nngroup.com/articles/how-long-do-users-stay-on-web-pages/">1</a></sup>. Cursive sites are simple one-page websites. The average user spends 1:19 on a Cursive site.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="section">
+		<div class="fence">
+
+			<div class="media">
+				<img alt="" src="img/gretchen.png" width="80" class="media__img">
+				<div class="media__body">
+					<h3>Gretchen has invited us over for dinner to say thanks.</h3>
+					<p>"We had just opened up our business, so we weren't focused on our website. Jordan organized all of our prices for us, digitized them, linked up to our reservation system, registered a domain, got us set up with email, and even made several trips to Menlo Park to help us set up email." <br>—Gretchen Schroeder of <a href="http://jaskoschroeder.com">jaskoschroeder.com</a></p>
+				</div>
+			</div>
+			<hr/>
+		</div>
+
+
+
+		<div class="grid">
+			<h2 class="align--center">No really, more than just good looks</h2>
+			<div class="grid__item width-1-2">
+				<div class="push-double--bottom align--center">
+					<img alt="" src="img/jordan.png" class="width-1 push-bottom">
+					<div>Jordan</div>
+				</div>
+				<h3>Details, Done Right &amp; Delivered</h3>
+				<p>All of your website updates and support are done by our co-founders, Jordan and Zach in San Francisco. Jordan has spent his entire career supporting millions of customers at <a href="http://www.hpwebos.com/us/">Palm</a>, <a href="http://inkling.com">Inkling</a>, and <a href="http://en.wikipedia.org/wiki/Better_Place">Better Place</a>. He has a master's degree in Political Science from <a href="http://missouri.edu/">Mizzou</a> and will copy edit every update!</p>
+			</div>
+			<div class="grid__item width-1-2">
+				<div class="push-double--bottom align--center">
+					<img alt="" src="img/zach.png" class="width-1 push-bottom">
+					<div>Zach</div>
+				</div>
+				<h3>Full service at a self-serve price</h3>
+				<p>For $40/month with no other setup fees. Cursive succeeds only if we're helping you succeed. We’ll help you setup email and register a domain. You’ll pay another company for these services, but we’ll take care of all the setup work inclusive of your monthly subscription fee.</p>
+			</div>
+		</div>
+
+
+	<div class="fence">
+			<hr/>
+		<div class="media">
+			<img alt="" src="img/kristy.png" width="80" class="media__img">
+			<div class="media__body">
+				<h3>We like Kristy so much we have referred her staging business, too.</h3>
+							<p>"Building my website seemed so hard. Jordan helped me select 6 photos, incorporate testimonials, helped me write most of the copy on my site, and provided pricing suggestions as well. My Cursive site works great on mobile phones too, and most importantly it has driven additional business for me." <br>—Kristy Johnson of <a href="http://jaskoschroeder.com">decoratingduo.com</a></p></div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+	<div class="section section--dark align--center">
+
+		<h2>Our favorite competitors</h2>
+		<div class="fence push-double--bottom">
+			<p>Cursive is perfect if you want to work with a small, highly skilled team to build your website, not a computer or overseas support. We can talk online strategy, social media, and answer your technical questions. We want to build partnerships with businesses and relationships with people. If this doesn't sound right for you, try these companies, where you can build the site yourself and save some money.</p>
+		</div>
+
+		<div class="grid">
+			<div class="grid__item width-1-3">
+				<img alt="" width="80" src="img/ss.png" class="anchor--center push-double--bottom">
+				<h3 class="caps">SquareSpace<br>$20/month</h3>
+				<p>Great design for users! SquareSpace is our favorite competitor. <strong>The Goods</strong>: Lots of template options, modern, e-commerce. <strong>The Bads</strong>: A bit hard to use if you're making a site.</p>
+			</div>
+			<div class="grid__item width-1-3">
+				<img alt="" width="80" src="img/w.png" class="anchor--center push-double--bottom">
+				<h3 class="caps">Weebly<br>$24/month</h3>
+				<p>A bit easier to create the site, but less flexible than SquareSpace <strong>Goods</strong>: App to manage your site, e-commerce, good editing interface. <strong>The Bads</strong>: Not as good of design as SquareSpace, less flexible, not as mobile friendly, no free domain.</p>
+			</div>
+			<div class="grid__item width-1-3">
+				<img alt="" width="80" src="img/sad.svg" class="anchor--center push-double--bottom">
+				<h3 class="caps">Everyone else<br>$/month varies</h3>
+				<p>There are a lot of other options, but we don't recommend them. For example, Wix and GoDaddy are very inexpensive, but often don't work on mobile and look awful. Both are  large companies that are more focused on their profits than their customers.</p>
+			</div>
+		</div>
+
+	</div>
+
+
+	<div class="fence">
+			<hr/>
+		<div class="media">
+			<img alt="" src="img/alexander.png" width="80" class="media__img">
+			<div class="media__body">
+				<h3>We've known Alexander Alioto for 3 years and love working with him.</h3>
+			<p>"I just opened Plin and I'm not a computer guy. Jordan's been working with me for over three years, so I signed up for a Cursive site and even hired him as a contractor to build plinsf.com, my menus, my logo, and my social media presence. I trust him to manage my brand online." <br/>&#8212;Alexander Alioto of <a href="http://alexanderalioto.com">alexanderalioto.com</a></p></div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="fence">
+			<hr/>
+		<div class="media">
+			<img alt="" src="img/dad.png" width="80" class="media__img">
+			<div class="media__body">
+				<h3>Even my dad signed up! Thanks dad!</h3>
+				<p>"I was joking with a client that my son charges me $40/month, she said that makes him a good businessman. Of course it's been worth it for me, he has setup my website, setup email, fixes my iPad, and makes the hour long drive to San Jose to help me with any computer issues I have at work whenever I have them. I'm very proud of him."<br/>&#8212;James Crawford of <a href="http://jbcarchitect.com">jbcarachitect.com</a></p></div>
+			</div>
+		</div>
+	</div>
+	
+
+	<div class="section">
+		<h2 class=" align--center">The preview is free, your first 15 days are free, then it's $40/month</h2>
+		<?php if(isset($_GET['signup']) && $_GET['signup'] =='ok') : ?>
+			<div class="alert alert-success"><b>Thanks!</b> We'll be in touch.</div>
+		<?php else: ?>
+			<form class="form-inline align--center signup" role="form" action="get-going" method="POST">
+				<!-- Set the value this to track in GA -->  
+				<input type="hidden" name="banner-id" value="l">
+	
+				<div class="form-group formtext">
+					<label class="sr-only" for="name">name</label>
+					<input type="name" class="form-control" name="name" placeholder="Your name">
+				</div>
+				<div class="form-group formtext">
+					<label class="sr-only" for="email">email</label>
+					<input type="e-mail" class="form-control" name="email" placeholder="Email">
+				</div>
+				<div class="form-group formtext">
+					<label class="sr-only" for="text">Business name/city</label>
+					<input type="name" class="form-control" name="city" placeholder="Business name/city">
+				</div>
+				<button type="city" class="btn btn-primary">Start the conversation</button>
+			</form>
+		<?php endif; ?>
+	</div>
+
+
+
+
+	<div class="section section--light">
+		<div class="muted">&copy; 2014 Rocketship Labs, LLC.</div>
+	</div>
+
+
+
+</body>
+</html>

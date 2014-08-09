@@ -196,3 +196,33 @@ img {
 
 /* Specifics */
 
+.icons {
+	width: 80px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/* Button */
+
+.signup button {
+  
+    margin: 0 auto;
+    margin-top: 0px;
+    border: 1px solid #2ecc71;
+    background-color: #2ecc71;
+    color: #FFF;
+    padding: 8px 30px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    text-align: center;
+}
+.signup button:hover {
+    color: white;
+    background-color: #27ae60;
+    border: 1px solid #27ae60;
+}
