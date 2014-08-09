@@ -23,9 +23,15 @@
 </head>
 <body>
 
+
 	<div class="section">
+		
 		<div class="fence align--center">
-			<h1>A beautiful modern website, by Cursive</h1>
+			<img class="icons" alt="" width="80" src="img/cursive-logo.png">
+			<p>Cursive</p>
+			<br/>
+		
+			<h1>A beautiful modern website</h1>
 			<h2>We'll build it, keep it updated for you, and we'll throw in our tech expertise for free.</h2>
 			<p class="gamma muted"></p>
 
@@ -123,7 +129,7 @@
 		<div class="grid">
 			<h2 class="align--center">No really, more than just good looks</h2>
 			<div class="grid__item width-1-2">
-				<div class="push-double--bottom align--center">
+				<div class="push-double--bottom align--center founder">
 					<img alt="" src="img/jordan.png" class="width-1 push-bottom">
 					<div>Jordan</div>
 				</div>
@@ -131,7 +137,7 @@
 				<p>All of your website updates and support are done by our co-founders, Jordan and Zach in San Francisco. Jordan has spent his entire career supporting millions of customers at <a href="http://www.hpwebos.com/us/">Palm</a>, <a href="http://inkling.com">Inkling</a>, and <a href="http://en.wikipedia.org/wiki/Better_Place">Better Place</a>. He has a master's degree in Political Science from <a href="http://missouri.edu/">Mizzou</a> and will copy edit every update!</p>
 			</div>
 			<div class="grid__item width-1-2">
-				<div class="push-double--bottom align--center">
+				<div class="push-double--bottom align--center founder">
 					<img alt="" src="img/zach.png" class="width-1 push-bottom">
 					<div>Zach</div>
 				</div>
@@ -211,7 +217,7 @@
 	
 
 	<div class="section">
-		<h2 class=" align--center">The preview is free, your first 15 days are free, then it's $40/month</h2>
+		<h2 class="align--center">The preview is free, your first 15 days are free, then it's $40/month</h2>
 		<?php if(isset($_GET['signup']) && $_GET['signup'] =='ok') : ?>
 			<div class="alert alert-success"><b>Thanks!</b> We'll be in touch.</div>
 		<?php else: ?>
