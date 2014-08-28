@@ -4,7 +4,6 @@ $bannerId = $_POST['banner-id'];
 
 $email = $_POST['email'];
 $name = $_POST['name'];
-$city = $_POST['city'];
 
 $ref =  $_SERVER["HTTP_REFERER"];
 
@@ -12,7 +11,7 @@ if(isset($_POST['email'])){
 
 $to      = 'staff@hellorocketship.com';
 $subject = 'Banner Signup ('.$bannerId.')';
-$message = $email.', '.$name.', '.$city;
+$message = $email.', '.$name.', ';
 $headers = 'From: mission_control@hellorocketship.com' . "\r\n" .
 'Reply-To: staff@hellorocketship.com' . "\r\n" .
 'X-Mailer: PHP/' . phpversion();

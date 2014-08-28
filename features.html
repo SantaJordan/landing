@@ -32,20 +32,15 @@
 			<br/>
 		
 			<h1>A beautiful modern website</h1>
-			<h2>We'll build it, keep it updated for you, and we'll throw in our tech expertise for free.</h2>
+			<h2 class="muted">We build it and update it for you. We created Cursive to help your business online and priced it so that if you don't succeed, our business fails.</h2>
 			<p class="gamma muted"></p>
-
-			<div class="beta muted">Good looking, everywhere</div>
+<br/>
+			<div class="beta ">Good looking, everywhere</div>
 		</div>
 	</div>
-
-	<div class="section section--medium soft-none">
-		<img class="width-1" alt="" src="img/hero.jpg">
-	</div>
-
-
+	
+	
 	<div class="section">
-		<p class="gamma muted align--center">Like what you see? Let us build you a preview  Cursive site for free.</p>
 		<?php if(isset($_GET['signup']) && $_GET['signup'] =='ok') : ?>
 			<div class="alert alert-success"><b>Thanks!</b> We'll be in touch.</div>
 		<?php else: ?>
@@ -61,11 +56,34 @@
 					<label class="sr-only" for="email">email</label>
 					<input type="e-mail" class="form-control" name="email" placeholder="Email">
 				</div>
+				<button type="city" class="btn btn-primary orangebutton">Get your free preview</button>
+			</form>
+		<?php endif; ?>
+	</div>
+
+	<div class="section section--medium soft-none">
+		<img class="width-1" alt="" src="img/hero.jpg">
+	</div>
+
+
+	<div class="section">
+		<p class="gamma muted align--center">Like what you see? Let us build you a custom preview Cursive site for free.</p>
+		<?php if(isset($_GET['signup']) && $_GET['signup'] =='ok') : ?>
+			<div class="alert alert-success"><b>Thanks!</b> We'll be in touch.</div>
+		<?php else: ?>
+			<form class="form-inline align--center signup" role="form" action="get-going" method="POST">
+				<!-- Set the value this to track in GA -->  
+				<input type="hidden" name="banner-id" value="l">
+	
 				<div class="form-group formtext">
-					<label class="sr-only" for="text">Business name/city</label>
-					<input type="name" class="form-control" name="city" placeholder="Business name/city">
+					<label class="sr-only" for="name">name</label>
+					<input type="name" class="form-control" name="name" placeholder="Your name">
 				</div>
-				<button type="city" class="btn btn-primary">Start the conversation</button>
+				<div class="form-group formtext">
+					<label class="sr-only" for="email">email</label>
+					<input type="e-mail" class="form-control" name="email" placeholder="Email">
+				</div>
+				<button type="city" class="btn btn-primary orangebutton">Get your free preview</button>
 			</form>
 		<?php endif; ?>
 	</div>
@@ -76,7 +94,7 @@
 			<div class="media">
 				<img alt="" src="img/arthur.png" width="80" class="media__img">
 				<div class="media__body">
-					<h3>Arthur was our first customer, thanks Arthur!</h3>
+					<h3>Arthur was our first customer!</h3>
 					<p>"I had a domain registered for many years, but I wasn't doing anything with it. Jordan built my site for me in two days, updated all of the content to my specifications, and has been very responsive when I contact him. I'm so happy with Cursive." <br>—Arthur Manzi of <a href="http://resonantwords.com">resonantwords.com</a></p>
 				</div>
 			</div>
@@ -152,7 +170,7 @@
 		<div class="media">
 			<img alt="" src="img/kristy.png" width="80" class="media__img">
 			<div class="media__body">
-				<h3>We like Kristy so much we have referred her staging business, too.</h3>
+				<h3>Kristy loves us!</h3>
 							<p>"Building my website seemed so hard. Jordan helped me select 6 photos, incorporate testimonials, helped me write most of the copy on my site, and provided pricing suggestions as well. My Cursive site works great on mobile phones too, and most importantly it has driven additional business for me." <br>—Kristy Johnson of <a href="http://jaskoschroeder.com">decoratingduo.com</a></p></div>
 			</div>
 		</div>
@@ -197,7 +215,7 @@
 		<div class="media">
 			<img alt="" src="img/alexander.png" width="80" class="media__img">
 			<div class="media__body">
-				<h3>We've known Alexander Alioto for 3 years and love working with him.</h3>
+				<h3>We've managed Alexander's brand for 3 years!</h3>
 			<p>"I just opened Plin and I'm not a computer guy. Jordan's been working with me for over three years, so I signed up for a Cursive site and even hired him as a contractor to build plinsf.com, my menus, my logo, and my social media presence. I trust him to manage my brand online." <br/>&#8212;Alexander Alioto of <a href="http://alexanderalioto.com">alexanderalioto.com</a></p></div>
 			</div>
 		</div>
@@ -209,7 +227,7 @@
 		<div class="media">
 			<img alt="" src="img/dad.png" width="80" class="media__img">
 			<div class="media__body">
-				<h3>Even my dad signed up! Thanks dad!</h3>
+				<h3>Thanks dad!</h3>
 				<p>"I was joking with a client that my son charges me $40/month, she said that makes him a good businessman. Of course it's been worth it for me, he has setup my website, setup email, fixes my iPad, and makes the hour long drive to San Jose to help me with any computer issues I have at work whenever I have them. I'm very proud of him."<br/>&#8212;James Crawford of <a href="http://jbcarchitect.com">jbcarachitect.com</a></p></div>
 			</div>
 		</div>
@@ -217,8 +235,10 @@
 	
 
 	<div class="section">
-		<h2 class="align--center">The preview is free, your first 15 days are free, then it's $40/month</h2>
+	
+		<h2 class="align--center">Free preview, free for 15 days, then just $40/month</h2>
 		<?php if(isset($_GET['signup']) && $_GET['signup'] =='ok') : ?>
+					<p class="align--center">Half of our customers are referrals and we start each subscription at a loss, but we do it because we believe that our long term success should be tied to yours. And if you're successful, you'll help us too. So far, so good.</p>
 			<div class="alert alert-success"><b>Thanks!</b> We'll be in touch.</div>
 		<?php else: ?>
 			<form class="form-inline align--center signup" role="form" action="get-going" method="POST">
@@ -237,7 +257,7 @@
 					<label class="sr-only" for="text">Business name/city</label>
 					<input type="name" class="form-control" name="city" placeholder="Business name/city">
 				</div>
-				<button type="city" class="btn btn-primary">Start the conversation</button>
+				<button type="city" class="btn btn-primary orangebutton">Get your free preview</button>
 			</form>
 		<?php endif; ?>
 	</div>
